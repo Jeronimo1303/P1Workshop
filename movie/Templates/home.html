@@ -25,6 +25,8 @@
                     {% if movie.url %}
                         <a href="{{movie.url}}" class="btn btn-primary">movie link</a>
                     {% endif %}
+                    <h6>Genre: {{movie.genre}}</h6>
+                    <h6>Year: {{movie.year}}</h6>
                 </div>
             </div>
         {% endfor %}
